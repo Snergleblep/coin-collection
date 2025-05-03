@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: nowrap;
     width: 100%;
-    background-color: DodgerBlue;
+    flex-wrap: wrap;
 }
 
 .coin {
-    flex: 1;
+    flex: 1 1;
     max-width: 150px; 
     text-align: center;
+    margin: 5px;
 }
