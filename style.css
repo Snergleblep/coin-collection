@@ -1,0 +1,14 @@
+.coinContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: DodgerBlue;
+}
+
+.coin {
+    flex: 1;
+    max-width: 150px; 
+    text-align: center;
+}
